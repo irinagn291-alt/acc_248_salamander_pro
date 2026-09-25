@@ -1,0 +1,17 @@
+At cold launch the system may show the standard notification permission dialog. There is no custom pre-prompt in the app and no usage-description string in Info for notifications. Camera is not requested or used in the UI; Info includes the usage description "This app does not use the camera."
+
+There is no login or accounts, no in-app purchase, no ads, no social user-generated content (posts, comments, photos), no account deletion flow, and no App Tracking Transparency prompt.
+
+Salamander is a kitchen-pass app for cooks who work one dish at a time. You open a recipe onto tonight's ticket, file mise bowls, then walk numbered fire lines until the dish plates. It is for people who want a counter-style cooking flow, not a recipe blog.
+
+No credentials or demo account are needed. From a cold launch, a full-bleed splash image appears with no text or buttons; the system notification dialog may appear at this time. On first launch, four dark onboarding pages appear with page dots: Tonight's ticket (Next), Walk the fire (Next), Plate the dish (Next), and Mise, then fire (Continue). Each page also offers Skip. Skip or finishing page 4 lands on Home. On Home, tap Cookbook (or Open cookbook on an empty pass). If the cookbook is empty, tap Search the catalog. On Search, enter a Dish name, tap Save on a result, then close Search. In Cookbook, tap Open on a saved recipe to write tonight's ticket as mise and return to Home. On the cook surface, tap File bowl until every bowl is filed, then tap Walk to file each fire line until the dish plates. Use Retract to peel the last bowl or walk mark when allowed. Open Fire rule or the Mise then fire chip for the Mise then fire sheet. Open Settings from the gear (Open settings) to see Pass notes, Marks on this pass, Replay the pass notes, TheMealDB catalog, Contact the pass, or Reset all data. Cookbook rows show Busy while a ticket is already open; plate the current dish before opening another.
+
+Tonight's ticket, cookbook saves, and service marks stay on this device. Search may fetch dish names from TheMealDB when available; otherwise the local shelf is shown. Support is available from Settings via Contact the pass.
+
+There is no region lock. The UI is English only; dates and numbers follow the device locale.
+
+No licence or regulated-industry paperwork applies. This is a Food & Drink cooking-pass utility and does not provide regulated health, medical, or nutrition services.
+
+The app is a personal log only and gives no recommendations. It shows no health, medical, nutrition, or calorie information.
+
+The app does not scan barcodes or QR codes.

@@ -1,0 +1,13 @@
+Version 1.0 introduces Salamander as a kitchen-pass app for cooks who work one dish at a time.
+
+• Cold-launch splash and optional system notification permission dialog
+• Four-page onboarding with Skip, or Replay the pass notes from Settings
+• Home with tonight's ticket, empty-pass states, and plated clear-pass copy
+• Search by dish name with TheMealDB and local shelf fallback
+• Cookbook saves, Open onto tonight's ticket as mise, and Service marks
+• File bowl, Walk numbered fire lines, and Retract
+• Mise then fire sheet with fire, walk, and service mark counts
+• Idle sleep held while a ticket is firing
+• Settings Pass notes, Marks on this pass, Contact the pass, and Reset all data
+
+Local shelf fallback dishes include Salt crust sea bass, Charred lemon chicken, Butter mushrooms, Pass tomato salad, Iron pork chop, and Herb oil beans. Unfinished mise or firing tickets resume on relaunch until plated or reset.

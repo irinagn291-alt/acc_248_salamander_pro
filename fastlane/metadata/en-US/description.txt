@@ -1,0 +1,17 @@
+Salamander is a kitchen-pass app for cooks who work one dish at a time. You open a recipe onto tonight's ticket, file mise bowls, then walk numbered fire lines until the dish plates. It is for people who want a counter-style cooking flow, not a recipe blog.
+
+• Kitchen-pass flow for one open ticket at a time
+• Onboarding that can be skipped or replayed from Settings
+• Search dishes by name (TheMealDB, with local shelf fallback)
+• Save dishes into Cookbook
+• Open a saved recipe onto tonight's ticket as mise
+• File mise bowls, then Walk numbered fire lines
+• Retract the last bowl or walk mark
+• Fire rule sheet Mise then fire with mark counts
+• Idle sleep held while a ticket is firing
+• Service marks and plated history
+• Settings ledger of shelf and marks
+• Contact the pass via the support URL
+• Reset all data on this device
+
+Tonight's ticket, cookbook saves, and service marks stay on this device. English UI only. Portrait on iPhone and iPad. Requires iOS 17.0.
