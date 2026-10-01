@@ -1,17 +1,26 @@
-At cold launch the system may show the standard notification permission dialog. There is no custom pre-prompt in the app and no usage-description string in Info for notifications. Camera is not requested or used in the UI; Info includes the usage description "This app does not use the camera."
+Thank you for the review. We retested the build under review on a clean device and could not reproduce a crash, a dead end, an empty screen or a non-functioning feature.
 
-There is no login or accounts, no in-app purchase, no ads, no social user-generated content (posts, comments, photos), no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate and can look unfinished if you move quickly.
 
-Salamander is a kitchen-pass app for cooks who work one dish at a time. You open a recipe onto tonight's ticket, file mise bowls, then walk numbered fire lines until the dish plates. It is for people who want a counter-style cooking flow, not a recipe blog.
+1. A clean install leaves Home and Cookbook empty until you save a dish and open it. Home shows "Tonight's ticket" with "The pass is waiting." and "Open cookbook". Cookbook shows "The cookbook is empty." and "Search the catalog". Search with a blank field stays on "Name a dish." Type a "Dish name", tap "Save", "Close", then "Open".
 
-No credentials or demo account are needed. From a cold launch, a full-bleed splash image appears with no text or buttons; the system notification dialog may appear at this time. On first launch, four dark onboarding pages appear with page dots: Tonight's ticket (Next), Walk the fire (Next), Plate the dish (Next), and Mise, then fire (Continue). Each page also offers Skip. Skip or finishing page 4 lands on Home. On Home, tap Cookbook (or Open cookbook on an empty pass). If the cookbook is empty, tap Search the catalog. On Search, enter a Dish name, tap Save on a result, then close Search. In Cookbook, tap Open on a saved recipe to write tonight's ticket as mise and return to Home. On the cook surface, tap File bowl until every bowl is filed, then tap Walk to file each fire line until the dish plates. Use Retract to peel the last bowl or walk mark when allowed. Open Fire rule or the Mise then fire chip for the Mise then fire sheet. Open Settings from the gear (Open settings) to see Pass notes, Marks on this pass, Replay the pass notes, TheMealDB catalog, Contact the pass, or Reset all data. Cookbook rows show Busy while a ticket is already open; plate the current dish before opening another.
+2. After the last "Walk", Home becomes "The pass is clear." The plate reads "Service is marked." with "The dish is plated. Service is marked. Sleep is restored." That clear pass is intended, not a crash. Tap "Open another recipe" to continue.
 
-Tonight's ticket, cookbook saves, and service marks stay on this device. Search may fetch dish names from TheMealDB when available; otherwise the local shelf is shown. Support is available from Settings via Contact the pass.
+3. "Walk" stays dim while bowls are still open. Use "File bowl" until mise closes. An early tap can show "File every mise bowl before the first walk." Then "Walk" files each fire line.
 
-There is no region lock. The UI is English only; dates and numbers follow the device locale.
+Full review path. No account, no login:
+- Cold launch is a full-bleed splash with no text or buttons. The system notification dialog may appear; there is no custom pre-prompt.
+- First launch shows four dark pages with page dots: "Tonight's ticket" (Next), "Walk the fire" (Next), "Plate the dish" (Next), and "Mise, then fire" (Continue). "Skip" is on every page. "Skip" or "Continue" lands on Home.
+- Home has no tab bar. Bottom chrome: "Search the catalog", "Cookbook", "Fire rule", "Open settings", and the plated counter.
+- From an empty pass tap "Open cookbook". From an empty Cookbook tap "Search the catalog".
+- On Search, type a "Dish name". Tap "Save" on a row, then "Close". A quiet catalog can show "The catalog did not answer. These dishes are already on the shelf."
+- In Cookbook tap "Open" to write tonight's ticket as "Mise" and return to Home. If a ticket is already open, rows say "Busy" and the note is "Tonight's ticket is still firing. Plate it before opening another recipe."
+- Tap "File bowl" until "Every bowl is filed.", then "Walk" each fire line. "Retract" peels the last mark when allowed. While busy they stay dim ("Filing the bowl", "Filing the walk", "Retracting").
+- "Fire rule" or the "Mise then fire" chip opens that sheet. "Close" or "Back to the ticket" returns to Home.
+- Settings: "Pass notes", "Marks on this pass", "Replay the pass notes", "TheMealDB catalog", "Contact the pass" with "https://salamander-pass.pro/contact-us", and "Reset all data" ("Reset the pass" / "Cancel"). Replay or reset shows onboarding again.
 
-No licence or regulated-industry paperwork applies. This is a Food & Drink cooking-pass utility and does not provide regulated health, medical, or nutrition services.
+On a device install the Cookbook starts empty until you "Save". Search can still list the local shelf: "Salt crust sea bass", "Charred lemon chicken", "Butter mushrooms", "Pass tomato salad", "Iron pork chop", "Herb oil beans". An open "Mise" or "Firing" ticket returns on relaunch until it plates or you reset.
 
-The app is a personal log only and gives no recommendations. It shows no health, medical, nutrition, or calorie information.
+Technical facts: no accounts, no in-app purchases, no ads and no analytics. At cold launch the system may ask for notification permission; there is no in-app pre-prompt and no usage-description string in Info for notifications. Camera is not requested or used; Info includes "This app does not use the camera." Tonight's ticket, cookbook saves, and service marks stay on this device. English UI only; dates and numbers follow the device locale. No region lock. Portrait only on iPhone and iPad. Minimum iOS 17.0.
 
-The app does not scan barcodes or QR codes.
+If a device, screen or step still failed, please send that location and the exact wording you saw. We will fix it and resubmit the same day.
